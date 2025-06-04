@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write       # ensure the GITHUB_TOKEN can push commits
+  pages: write          # allow Pages deployment
+  id-token: write       # needed by peaceiris/actions-gh-pages
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -12,20 +17,21 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true   # critical so github-actions[bot] can push
 
       - name: Set up Ruby 3.1
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1
 
-      - name: Install Bundler 2.0.2 (or skip if you loosened Gemfile)
-        run: gem install bundler -v 2.0.2
+      - name: Install Bundler & dependencies
+        run: |
+          gem install bundler       # installs the latest Bundler (2.6.x on Ruby 3.1)
+          bundle install            # pulls in Jekyll, your theme, plugins, etc.
 
-      - name: Install project dependencies
-        run: bundle _2.0.2_ install
-
-      - name: Build Jekyll site
-        run: bundle _2.0.2_ exec jekyll build --destination ./_site
+      - name: Build Jekyll _site
+        run: bundle exec jekyll build --destination ./_site
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
