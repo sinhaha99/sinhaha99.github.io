@@ -9,7 +9,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
-
+AA
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -26,11 +26,11 @@ jobs:
         with:
           ruby-version: '3.1'
 
-      - name: Install Bundler 2.6
-        run: gem install bundler -v 2.6
+      - name: Install Bundler 2.6.9
+        run: gem install bundler -v 2.6.9
 
-      - name: Install dependencies with Bundler 2.6
-        run: bundle _2.6_ install
+      - name: Install dependencies with Bundler 2.6.9
+        run: bundle _2.6.9_ install --jobs 4 --retry 3
 
       - name: Setup Pages
         id: pages
