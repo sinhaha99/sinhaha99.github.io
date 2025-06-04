@@ -6,5 +6,3 @@ end
 gem 'html-proofer'
 gem 'tzinfo'
 gem 'tzinfo-data'
-gem 'bundler', '~> 2.6.9'
-
