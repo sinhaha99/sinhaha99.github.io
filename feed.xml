@@ -7,10 +7,10 @@
     
       
         <item>
-          <title>For Example of very Long Title Would Be Typography Elements in One</title>
-          <description>&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This markdown cheatsheet is a typography demo for this theme. Check out this post to learn more about this markdown usage when you want to get started with this theme. Enjoy!&lt;/p&gt;
+          <title>Development Journey Overview</title>
+          <description>&lt;p&gt;Welcome to the Development Journey section! This is where we document the ongoing progress and milestones in our development work.&lt;/p&gt;
 
-&lt;h2 id=&quot;typography-elements-in-one&quot;&gt;Typography Elements in One&lt;/h2&gt;
+&lt;h2 id=&quot;development-journey-overview&quot;&gt;Development Journey Overview&lt;/h2&gt;
 
 &lt;p&gt;Let’s start with a informative paragraph. &lt;strong&gt;This text is bolded.&lt;/strong&gt; But not this one! &lt;em&gt;How about italic text?&lt;/em&gt; Cool right? Ok, let’s &lt;strong&gt;&lt;em&gt;combine&lt;/em&gt;&lt;/strong&gt; them together. Yeah, that’s right! I have code to highlight, so &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ThisIsMyCode()&lt;/code&gt;. What a nice! Good people will hyperlink away, so &lt;a href=&quot;#&quot;&gt;here we go&lt;/a&gt; or &lt;a href=&quot;http://www.example.com&quot;&gt;http://www.example.com&lt;/a&gt;.&lt;/p&gt;
 
@@ -190,9 +190,76 @@ But let&apos;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-          <pubDate>2016-10-18T00:00:00+08:00</pubDate>
-          <link>https://heiswayi.github.io/the-plain/very-long-title-post</link>
-          <guid isPermaLink="true">https://heiswayi.github.io/the-plain/very-long-title-post</guid>
+          <pubDate>2024-01-01T00:00:00+08:00</pubDate>
+          <link>https://heiswayi.github.io/the-plain/development-journey-post</link>
+          <guid isPermaLink="true">https://heiswayi.github.io/the-plain/development-journey-post</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Design Notes Introduction</title>
+          <description>&lt;p&gt;Welcome to the Design Notes section! This is where we explore design principles, user experience considerations, and visual design decisions.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-philosophy&quot;&gt;Design Philosophy&lt;/h2&gt;
+
+&lt;p&gt;This section will contain thoughts on design choices, UI/UX considerations, and aesthetic decisions that shape the user experience.&lt;/p&gt;
+
+&lt;h3 id=&quot;key-areas-of-focus&quot;&gt;Key Areas of Focus&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;User interface design principles&lt;/li&gt;
+  &lt;li&gt;Color schemes and typography choices&lt;/li&gt;
+  &lt;li&gt;Layout and composition decisions&lt;/li&gt;
+  &lt;li&gt;Accessibility considerations&lt;/li&gt;
+  &lt;li&gt;Design system development&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;More design notes will be added here as the project evolves.&lt;/em&gt;&lt;/p&gt;
+</description>
+          <pubDate>2023-01-01T00:00:00+08:00</pubDate>
+          <link>https://heiswayi.github.io/the-plain/design-notes-intro</link>
+          <guid isPermaLink="true">https://heiswayi.github.io/the-plain/design-notes-intro</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Development Notes Introduction</title>
+          <description>&lt;p&gt;Welcome to the Development Notes section! This is where we document technical implementation details, code architecture decisions, and development processes.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-documentation&quot;&gt;Technical Documentation&lt;/h2&gt;
+
+&lt;p&gt;This section serves as a technical journal for development work, covering:&lt;/p&gt;
+
+&lt;h3 id=&quot;development-areas&quot;&gt;Development Areas&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Code architecture and patterns&lt;/li&gt;
+  &lt;li&gt;Technical implementation details&lt;/li&gt;
+  &lt;li&gt;Performance optimizations&lt;/li&gt;
+  &lt;li&gt;Testing strategies&lt;/li&gt;
+  &lt;li&gt;Development workflow improvements&lt;/li&gt;
+  &lt;li&gt;Bug fixes and solutions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;code-examples&quot;&gt;Code Examples&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Example code snippets will be documented here&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;exampleFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Development notes in action!&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Technical notes and development insights will be documented here as work progresses.&lt;/em&gt;&lt;/p&gt;
+</description>
+          <pubDate>2022-01-01T00:00:00+08:00</pubDate>
+          <link>https://heiswayi.github.io/the-plain/development-notes-intro</link>
+          <guid isPermaLink="true">https://heiswayi.github.io/the-plain/development-notes-intro</guid>
         </item>
       
     
