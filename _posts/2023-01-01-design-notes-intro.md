@@ -1,6 +1,7 @@
 ---
 title: Design Notes Introduction
 updated: 2023-01-01 12:00
+section: Design Notes
 ---
 
 Welcome to the Design Notes section! This is where we explore design principles, user experience considerations, and visual design decisions.

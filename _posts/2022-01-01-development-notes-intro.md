@@ -1,6 +1,7 @@
 ---
 title: Development Notes Introduction
 updated: 2022-01-01 12:00
+section: Development Notes
 ---
 
 Welcome to the Development Notes section! This is where we document technical implementation details, code architecture decisions, and development processes.

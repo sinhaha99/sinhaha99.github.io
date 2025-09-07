@@ -1,19 +1,19 @@
+{% if page.url == '/index.html' or page.url == '/' %}
 <aside class="logo">
 
-	{% if page.url == '/index.html' or page.url == '/' %}
-		{% assign link = '/about' %}
-		{% assign prompt = 'About the Author' %}
-	{% else %}
-		{% assign link = '/' %}
-		{% assign prompt = 'Back to Index' %}
-	{% endif %}
-
-	<a href="{{ link | prepend: site.baseurl | prepend: site.url }}">
+	<a href="/about">
 		<img src="{{ site.logo_url }}" alt="" class="logo-avatar">
 	</a>
-	<span class="logo-prompt code">{{ prompt }}</span>
+	<span class="logo-prompt code">About the Author</span>
 
 </aside>
+{% else %}
+<aside class="logo">
+	<a href="/">
+		<span class="logo-prompt code">Back to Index</span>
+	</a>
+</aside>
+{% endif %}
 
 {% if page.url == '/index.html' or page.url == '/' %}
 <header class="site-header" style="text-align: center;">
